@@ -1,5 +1,5 @@
 from dataImport import ImportData
-from PlotLine import PlotLine
+from plotLine import PlotLine
 class ImportMyDaq(ImportData):
 
     def __clean(self,nbr):

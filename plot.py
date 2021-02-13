@@ -1,5 +1,5 @@
 from matplotlib import pyplot as plt
-from PlotLine import PlotLine
+from plotLine import PlotLine
 import json
 
 class Plot():
@@ -35,6 +35,7 @@ class Plot():
                         print(line_data)
 
     def show_plot(self):
+        plt.clf()
         plt.figure
         plt.title(self.get_title())
 

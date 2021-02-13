@@ -12,4 +12,4 @@ You need to install some python libraries:
 
 ## How to use
 
-Simply run the `windows.py` python script 😃
+Simply download the whole git directory and run the `windows.py` python script 😃

@@ -1,5 +1,5 @@
 from dataImport import ImportData
-from PlotLine import PlotLine
+from plotLine import PlotLine
 import numpy  as np
 class ImportLTSpiceData (ImportData):
     y = []

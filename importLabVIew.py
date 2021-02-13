@@ -1,5 +1,5 @@
 from dataImport import ImportData
-from PlotLine import PlotLine
+from plotLine import PlotLine
 class ImportLabView(ImportData):
     y=[]
     x=[]

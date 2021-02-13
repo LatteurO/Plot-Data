@@ -5,7 +5,7 @@ from tkinter import Scrollbar
 from PIL import ImageTk,Image
 
 from plot import Plot
-from PlotLine import PlotLine
+from plotLine import PlotLine
 from importLtSpiceData import ImportLTSpiceData
 from importMyDaq import ImportMyDaq
 from importLabVIew import ImportLabView
@@ -307,6 +307,7 @@ class Interface(Frame):
         import_file_menu.add_command(label="LTSpice", command=self.import_LTSpice)
         import_file_menu.add_command(label="MyDaq",command=self.import_mydaq)
         import_file_menu.add_command(label="LabView",command=self.import_labview)
+        #TODO: ADD ADDITIONAL FORMAT IF NEEDED
 
         file_menu = Menu(menu, tearoff=0)
         file_menu.add_command(label="Open",command=self.open_plot)
@@ -359,7 +360,6 @@ class Interface(Frame):
                 self.add_line_widget(line)
 
     def show_plot(self):
-
         self.plot.show_plot()
 
 
